@@ -11,31 +11,30 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              // imgPath={}
-              isBlog={false}
-              title="WeatherApp"
-              description="A realtime weather forcast application built using javascript and openweather api."
-              ghLink="https://github.com/DhareshP/Weather"
-              demoLink="https://weather-zeta-ecru.vercel.app/"
-            />
-          </Col>
+Under Development        </p>
+        {/*<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>*/}
+        {/*  <Col md={4} className="project-card">*/}
+        {/*    <ProjectCard*/}
+        {/*      // imgPath={Le}*/}
+        {/*      isBlog={false}*/}
+        {/*      title="Techeazy Website Landing Page"*/}
+        {/*      description="A website UI built using typescript."*/}
+        {/*      ghLink="https://github.com/DhareshP/UI-design"*/}
+        {/*      demoLink="techeazy.vercel.app"*/}
+        {/*    />*/}
+        {/*  </Col>*/}
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              // imgPath={}
-              isBlog={false}
-              title="QuotesApp"
-              description="A live Quote generator, generating new quotes on every click, using the quotable api and Javascript. Options to post the quotes to twitter."
-              ghLink="https://github.com/DhareshP/Quotes-app"
-              demoLink="https://quotes-app-azure.vercel.app/"
-            />
-          </Col>
-        </Row>
+        {/*  <Col md={4} className="project-card">*/}
+        {/*    <ProjectCard*/}
+        {/*      // imgPath={}*/}
+        {/*      isBlog={false}*/}
+        {/*      title="QuotesApp"*/}
+        {/*      description="A live Quote generator, generating new quotes on every click, using the quotable api and Javascript. Options to post the quotes to twitter."*/}
+        {/*      ghLink="https://github.com/DhareshP/Quotes-app"*/}
+        {/*      demoLink="https://quotes-app-azure.vercel.app/"*/}
+        {/*    />*/}
+        {/*  </Col>*/}
+        {/*</Row>*/}
       </Container>
     </Container>
   );
